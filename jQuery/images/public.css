@@ -1,0 +1,179 @@
+/**基本格式开始***************/
+body,div,ul,ol,li,dl,dt,dd,h1,h2,h3,h4,h5,h6,form,input,textarea,p {
+	margin:0px;
+	padding:0px;
+	font-size:12px;
+	font-family:微软雅黑;
+	color:#333;
+}
+ul {
+	list-style:none;
+}
+img,a img {
+	border:none;
+}
+a {
+	text-decoration:none;
+}
+a:hover {
+	text-decoration:underline;
+}
+/**基本格式结束***************/
+body {
+	background:pink;
+}
+body.w1190 .wrap {
+	width:1190px;
+	margin:0 auto;
+}
+body.w990 .wrap {
+	width:990px;
+	margin:0 auto;
+}
+#top {
+	width:100%;
+	height:28px;
+	border-bottom:1px solid #f1f1f1;
+	background:#fafafa;
+}
+#top div.hello {
+	color:#999;
+	line-height:28px;
+	float:left;
+}
+#top ul.right {
+	float:right;
+}
+#top ul.right li {
+	float:left;
+	position:relative;
+}
+#top ul.right li div.text {
+	text-indent:10px;
+	line-height:28px;
+	color:#666;
+}
+#top ul.right li div.text span {
+	display:block;
+	width:10px;
+	height:5px;
+	background:url(top_bg.png) -15px -5px;
+	position:absolute;
+	top:12px;
+	right:10px;
+}
+#top ul.right li.call {
+	width:60px;
+}
+#top ul.right li.teamwork {
+	width:90px;
+}
+#top ul.right li div.details {
+	background:#fff;
+	position:absolute;
+	right:0px;
+	top:28px;
+	box-shadow:0px 0px 5px 0px #ccc;
+	display:none;
+}
+#top ul.right li.call div.details {
+	width:200px;
+	height:100px;
+}
+#top ul.right li.teamwork div.details {
+	width:90px;
+	height:200px;
+}
+#top ul.right li.hover div.text {
+	background:#fff;
+	box-shadow:0px 0px 16px 0px #ccc;
+}
+#top ul.right li.hover div.text:after {
+	content:'';
+	display:block;
+	width:100%;
+	height:10px;
+	background:#fff;
+	position:absolute;
+	z-index:2;
+	top:22px;
+}
+#top ul.right li.hover div.text span {
+	background-position:-15px 0;
+}
+/*
+#top ul.right li.hover div.details {
+	display:block;
+}
+*/
+#logoWrap {
+	width:100%;
+	height:89px;
+	background:#fff;
+}
+#logoWrap div.logo {
+	width:731px;
+	height:89px;
+	margin-left:-150px;
+	float:left;
+}
+#logoWrap div.nowCity {
+	width:77px;
+	height:60px;
+	float:left;
+	margin:20px 0 0 -230px;
+	position:relative;
+}
+#logoWrap div.nowCity div.text {
+	font-size:20px;
+	line-height:60px;
+	text-indent:10px;
+}
+#logoWrap div.nowCity.hover div.text {
+	background:#fff;
+	box-shadow:0px 0px 16px 0px #ccc;
+}
+#logoWrap div.nowCity.hover div.text:hover {
+	cursor:pointer;
+}
+#logoWrap div.nowCity.hover div.text:after {
+	content:'';
+	display:block;
+	width:100%;
+	height:30px;
+	background:#fff;
+	position:absolute;
+	top:42px;
+	z-index:2;
+}
+#logoWrap div.nowCity div.text span {
+	display:block;
+	width:11px;
+	height:6px;
+	background:url(top_bg.png) -15px -10px;
+	position:absolute;
+	top:28px;
+	right:10px;
+}
+#logoWrap div.nowCity.hover div.text span {
+	background-position:-29px -9px;
+}
+#logoWrap div.nowCity div.cityList {
+	width:400px;
+	height:200px;
+	background:#fff;
+	position:absolute;
+	top:60px;
+	left:0px;
+	box-shadow:0px 0px 16px 0px #ccc;
+	display:none;
+}
+#logoWrap div.nowCity.hover div.cityList {
+	display:block;
+}
+#logoWrap div.app {
+	width:65px;
+	height:89px;
+	float:right;
+	margin-right:25px;
+} 
